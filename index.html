@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ifa College</title>
+  <meta name="description" content="Ifa College offers high-quality courses and training programs to help learners achieve their academic and professional goals.">
+  <meta name="keywords" content="Ifa College, online learning, education, courses, training, e-learning">
+  <meta name="author" content="Ifa College">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/ase-4-today-logo.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#1a1a1a">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ifa College - Quality Online Learning">
+  <meta property="og:description" content="Explore high-quality online courses from Ifa College. Learn, grow, and achieve your goals.">
+  <meta property="og:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/ase-4-today-logo.png">
+  <meta property="og:url" content="https://www.ifacollege.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ifa College - Quality Online Learning">
+  <meta name="twitter:description" content="Explore high-quality online courses from Ifa College. Learn, grow, and achieve your goals.">
+  <meta name="twitter:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/ase-4-today-logo.png">
+</head>
+<body>
+
+  <!-- ====== Header ====== -->
+  <header>
+    <div class="logo">
+      <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/ase-4-today-logo.png" alt="Logo">
+      <span>Ifa College</span>
+    </div>
+
+    <!-- Mobile menu toggle -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="https://www.linkedin.com/in/director-profile" target="_blank">Meet The Director</a>
+      <a href="https://wa.me/2348012345678" target="_blank">WhatsApp Us</a>
+      <a href="mailto:info@ifacollege.com">Email Us</a>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <!-- Search Toggle (mobile) -->
+      <button class="search-icon" onclick="toggleSearch()">🔍</button>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search courses...">
+        <button onclick="searchCourses()">Search</button>
+      </div>
+
+      <!-- Donate -->
+      <button class="donate-btn">Donate</button>
+    </div>
+  </header>
+
+  <!-- ====== Hero Slideshow ====== -->
+  <section class="hero">
+    <div class="slides">
+      <div class="slide active">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Learning">
+        <div class="text">
+          <h2>Welcome to Ifa College</h2>
+          <p>Explore knowledge, discover opportunities, and grow your career.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Teamwork">
+        <div class="text">
+          <h2>Quality Online Courses</h2>
+          <p>We offer high-quality, practical, and career-focused programs.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Project Management">
+        <div class="text">
+          <h2>Learn Anytime, Anywhere</h2>
+          <p>Flexible learning designed for your busy lifestyle.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </section>
+
+  <!-- ====== Page Title ====== -->
+  <section class="page-title">
+    <h1>Courses</h1>
+    <p>Explore courses from Ifa College</p>
+  </section>
+
+  <!-- ====== Courses Grid ====== -->
+  <section class="courses" id="courseGrid">
+    <!-- Course cards will be inserted dynamically using JS -->
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer>
+    <p>&copy; 2025 Ifa College. All rights reserved.</p>
+
+    <!-- Social Media Links -->
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <button class="donate-btn">Donate</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
